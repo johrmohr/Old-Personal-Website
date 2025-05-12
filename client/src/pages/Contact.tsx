@@ -147,9 +147,6 @@ export default function Contact() {
                     case 'linkedin':
                       Icon = <Linkedin className="h-5 w-5" />;
                       break;
-                    case 'twitter':
-                      Icon = <Twitter className="h-5 w-5" />;
-                      break;
                     case 'github':
                       Icon = <Github className="h-5 w-5" />;
                       break;
