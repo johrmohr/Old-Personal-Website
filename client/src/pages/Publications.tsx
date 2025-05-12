@@ -1,20 +1,9 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, FileText } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { FileText } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { professorData } from "@/data/profileData";
 
-type PublicationType = 'All' | 'Journal Articles' | 'Conference Papers' | 'Book Chapters';
-
 export default function Publications() {
-  const [activeFilter, setActiveFilter] = useState<PublicationType>('All');
-  
-  const filteredPublications = professorData.publications.filter(pub => {
-    if (activeFilter === 'All') return true;
-    return pub.type === activeFilter;
-  });
-
   return (
     <section id="publications" className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,24 +12,10 @@ export default function Publications() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 tracking-tight">Selected Publications</h2>
-          
-          <div className="flex overflow-x-auto mb-8 pb-2 scrollbar-hide">
-            <div className="flex space-x-4">
-              {(['All', 'Journal Articles', 'Conference Papers', 'Book Chapters'] as const).map((filter) => (
-                <Button
-                  key={filter}
-                  variant={activeFilter === filter ? "default" : "outline"}
-                  onClick={() => setActiveFilter(filter)}
-                >
-                  {filter}
-                </Button>
-              ))}
-            </div>
-          </div>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8 tracking-tight">Papers</h2>
           
           <div className="space-y-6">
-            {filteredPublications.map((publication, index) => (
+            {professorData.publications.map((publication, index) => (
               <motion.div 
                 key={index}
                 className="bg-white rounded-lg border border-slate-200 p-6 hover:shadow-md transition-shadow"
@@ -67,9 +42,9 @@ export default function Publications() {
                       <span className="font-medium">{publication.journal}</span> • {publication.year}
                     </div>
                     <div className="flex space-x-4">
-                      <a href="#" className="text-primary hover:text-primary-800 text-sm font-medium">View PDF</a>
-                      <a href="#" className="text-primary hover:text-primary-800 text-sm font-medium">DOI</a>
-                      <a href="#" className="text-primary hover:text-primary-800 text-sm font-medium">Cite</a>
+                      <a href="#" className="text-primary hover:text-primary-800 text-sm font-medium flex items-center">
+                        <FileText className="h-4 w-4 mr-1" /> View PDF
+                      </a>
                     </div>
                   </div>
                   <div className="mt-4 md:mt-0 md:ml-6 flex-shrink-0">
@@ -80,12 +55,6 @@ export default function Publications() {
                 </div>
               </motion.div>
             ))}
-          </div>
-          
-          <div className="mt-12 text-center">
-            <Button variant="outline" className="border-primary-600 text-primary-700">
-              View Complete Publication List <ExternalLink className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </motion.div>
       </div>

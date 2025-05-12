@@ -173,7 +173,6 @@ export const professorData = {
     officeHours: "Tuesday & Thursday\n2:00 PM - 4:00 PM (PST)\nOr by appointment",
     socialLinks: [
       { name: "LinkedIn", url: "#", icon: "linkedin" },
-      { name: "Twitter", url: "#", icon: "twitter" },
       { name: "GitHub", url: "#", icon: "github" },
       { name: "ResearchGate", url: "#", icon: "fileText" },
       { name: "Email", url: "#", icon: "mail" }

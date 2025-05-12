@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Mail, Clock, Linkedin, Twitter, Github, FileText } from "lucide-react";
+import { MapPin, Mail, Clock, Linkedin, Github, FileText } from "lucide-react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
