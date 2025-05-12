@@ -48,10 +48,10 @@ export const professorData = {
   
   research: [
     {
-      title: "Advanced Neural Language Models",
+      title: "The Influence of Fiber Alignment on Cell Migration Patterns and Morphology",
       description: "Developing next-generation transformer architectures for improved language understanding with reduced computational requirements.",
-      status: "Active",
-      period: "2021 - Present",
+      status: "",
+      period: "Summer 2024",
       image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -72,34 +72,18 @@ export const professorData = {
   
   publications: [
     {
-      title: "Transformer-based architectures for context-aware sentiment analysis in multi-turn conversations",
-      authors: "Smith, J., Chen, L., Williams, R., & Johnson, M.",
-      tags: ["Natural Language Processing", "Sentiment Analysis", "Transformers"],
-      journal: "Journal of Computational Linguistics, 48(2), 357-389",
+      title: "Malta—Position Paper for the General Assembly Plenary: Implementation of the Convention against Corruption; Science, Technology, and Innovation for Sustainable Development",
+      authors: "Jordan Moreno, Greg Burchett",
+      tags: ["Sustainable Development", "Public Policy", "Anti-Corruption"],
+      journal: "National Model United Nations - Germany",
       year: "2023",
       type: "Journal Articles"
     },
     {
-      title: "A comparative study of ethical frameworks for AI development: challenges and recommendations",
-      authors: "Smith, J., Garcia, A., & Peterson, T.",
-      tags: ["AI Ethics", "Governance"],
-      journal: "Proceedings of the International Conference on AI Ethics (ICAIE)",
-      year: "2022",
-      type: "Conference Papers"
-    },
-    {
-      title: "Multimodal fusion techniques for improved visual question answering in medical imaging",
-      authors: "Wu, H., Smith, J., Anderson, K., & Martin, F.",
-      tags: ["Computer Vision", "Medical AI", "Multimodal Learning"],
-      journal: "IEEE Transactions on Medical Imaging, 41(3), 823-841",
-      year: "2021",
-      type: "Journal Articles"
-    },
-    {
-      title: "Advances in Explainable AI for High-Stakes Decision Making",
-      authors: "Smith, J., & Wilson, R.",
-      tags: ["Explainable AI", "Decision Systems", "Ethics"],
-      journal: "Handbook of Artificial Intelligence in Healthcare",
+      title: "Haiti—Position Paper for the United Nations Educational, Scientific, and Cultural Organization: Artificial Intelligence and the Rule of Law; Strengthening Partnerships on Science, Technology, and Innovation for Sustainable Development",
+      authors: "Jordan Moreno, ",
+      tags: ["AI Ethics", "AI Public Policy", "Sustainable Development"],
+      journal: "National Model United Nations - New York",
       year: "2022",
       type: "Book Chapters"
     }
@@ -108,74 +92,80 @@ export const professorData = {
   cv: {
     positions: [
       {
-        title: "Associate Professor",
-        institution: "Stanford University, Department of Computer Science",
-        period: "2018 - Present",
-        description: "Leading research in artificial intelligence and natural language processing. Teaching graduate courses in machine learning and computational linguistics."
+        title: "Software Engineer",
+        institution: "Cute Nyanko",
+        period: "2025",
+        description: "Co-founded an e-commerce business generating $5K+ in revenue by identifying niche market needs."
       },
       {
-        title: "Assistant Professor",
-        institution: "Stanford University, Department of Computer Science",
-        period: "2013 - 2018",
-        description: "Established the Machine Intelligence Research Lab. Secured $2.5M in research grants. Advised 8 PhD students."
+        title: "Undergraduate Research Assistant",
+        institution: "UC Riverside Interdisciplinary Center for Quantitative Modeling in Biology",
+        period: "Summer 2024",
+        description: "Investigated using computational modeling of cell migration aiming to understand the interactions between cells and substrates under different conditions."
       },
       {
-        title: "Postdoctoral Researcher",
-        institution: "Carnegie Mellon University, Language Technologies Institute",
-        period: "2012 - 2013",
-        description: "Conducted research on statistical methods for machine translation and cross-lingual information retrieval."
+        title: "Software Engineering Intern",
+        institution: "San Bernardino Department of Public Health",
+        period: "Fall 2023",
+        description: "Developed and deployed automation scripts for data processing workflows, maintained IT system documentation and user guides for 100+ staff members, and streamlined data tracking processes by implementing automated reporting tools."
+      },
+      {
+        title: "Computer Science and Calculus Academic Tutor",
+        institution: "Riverside City College",
+        period: "2022 - 2024",
+        description: "Successfully aided 100+ students to pass their classes in several Calculus, Math, and Computer Science courses as a student tutor."
       }
     ],
     awards: [
       {
-        title: "ACM Distinguished Paper Award",
-        description: "International Conference on Computational Linguistics",
-        year: "2021"
+        title: "Berkeley Douglass Powell Endowed Engineering Scholar",
+        description: "",
+        year: "2024"
       },
       {
-        title: "Google Faculty Research Award",
-        description: "Machine Learning",
-        year: "2019"
+        title: "Eagle Scholarship Award",
+        description: "Eagle Community Credit Union",
+        year: "2024"
       },
       {
-        title: "NSF CAREER Award",
-        description: "\"Advancing Neural Approaches to Natural Language Understanding\"",
-        year: "2016"
+        title: "NSF S-STEM Scholar Award",
+        description: "",
+        year: "2022-2024"
       },
       {
-        title: "MIT Technology Review's 35 Innovators Under 35",
-        description: "Technology Innovation",
-        year: "2015"
+        title: "Outstanding Delegate Peer Award",
+        description: "National Model United Nations - New York",
+        year: "2022"
+      },
+      {
+        title: "Position Paper Award",
+        description: "National Model United Nations - Germany",
+        year: "2023"
       }
     ],
     service: [
       {
-        role: "Program Committee Chair",
-        organization: "International Conference on Machine Learning (ICML)",
-        period: "2022"
+        role: "Assistant Director",
+        organization: "National Model United Nations",
+        period: "2025-Present"
       },
       {
-        role: "Associate Editor",
-        organization: "Journal of Artificial Intelligence Research",
-        period: "2019-Present"
-      },
-      {
-        role: "Board Member",
-        organization: "Association for Computational Linguistics",
-        period: "2020-Present"
+        role: "Director of Alumni Relations",
+        organization: "Lambda Phi Nu",
+        period: "2025-Present"
       }
     ]
   },
   
   contact: {
-    officeLocation: "Gates Computer Science Building\nStanford University\nStanford, CA 94305",
-    email: "jsmith@stanford.edu",
-    officeHours: "Tuesday & Thursday\n2:00 PM - 4:00 PM (PST)\nOr by appointment",
+    officeLocation: "",
+    email: "3moreno.jordan@gmail.com",
+    phoneNumber: "(951) 454-8767",
     socialLinks: [
-      { name: "LinkedIn", url: "#", icon: "linkedin" },
-      { name: "GitHub", url: "#", icon: "github" },
-      { name: "ResearchGate", url: "#", icon: "fileText" },
-      { name: "Email", url: "#", icon: "mail" }
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/jordan-moreno-", icon: "linkedin" },
+      { name: "GitHub", url: "https://github.com/johrmohr", icon: "github" },
+      { name: "Resume", url: "/Jordan Moreno — RESUME.pdf", icon: "fileText" },
+      { name: "Email", url: "mailto:3moreno.jordan@gmail.com", icon: "mail" }
     ]
   }
 };

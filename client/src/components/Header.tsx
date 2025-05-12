@@ -48,7 +48,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold text-primary">
-              Dr. Jane Smith
+              Jordan Moreno
             </Link>
           </div>
           

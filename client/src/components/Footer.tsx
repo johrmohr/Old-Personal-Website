@@ -11,7 +11,7 @@ const quickLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Research", href: "/research" },
-  { label: "Publications", href: "/publications" },
+  { label: "Papers", href: "/publications" },
   { label: "CV", href: "/cv" },
   { label: "Contact", href: "/contact" },
 ];
@@ -25,7 +25,6 @@ const resources = [
 
 const socialLinks = [
   { icon: "linkedin", href: "#", label: "LinkedIn" },
-  { icon: "twitter", href: "#", label: "Twitter" },
   { icon: "github", href: "#", label: "GitHub" },
   { icon: "fileText", href: "#", label: "ResearchGate" },
   { icon: "mail", href: "#", label: "Email" },
@@ -37,11 +36,11 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Dr. Jane Smith</h3>
+            <h3 className="text-lg font-semibold mb-4">Jordan Moreno</h3>
             <p className="text-slate-300">
-              Associate Professor<br />
-              Department of Computer Science<br />
-              Stanford University
+              Undergraduate Student<br />
+              Donald Bren School of Information and Computer Sciences<br />
+              UC Irvine
             </p>
           </div>
           
@@ -116,7 +115,6 @@ export default function Footer() {
               })}
             </div>
             <p className="text-slate-400 text-sm">
-              Subscribe to my newsletter for updates on research and publications.
             </p>
           </div>
         </div>

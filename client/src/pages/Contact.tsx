@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Mail, Clock, Linkedin, Github, FileText } from "lucide-react";
+import { Phone, Mail, Linkedin, Github, FileText } from "lucide-react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -92,18 +92,13 @@ export default function Contact() {
             <div className="space-y-4 mb-8">
               <div className="flex items-start">
                 <div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary-100 flex items-center justify-center">
-                  <MapPin className="h-5 w-5 text-primary" />
+                  <Phone className="h-5 w-5 text-primary" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-medium text-slate-900">Office Location</h3>
-                  <p className="text-slate-700">
-                    {professorData.contact.officeLocation.split('\n').map((line, index) => (
-                      <span key={index}>
-                        {line}
-                        <br />
-                      </span>
-                    ))}
-                  </p>
+                  <h3 className="text-lg font-medium text-slate-900">Phone</h3>
+                  <a href={`tel:${professorData.contact.phoneNumber.replace(/[()-\s]/g, '')}`} className="text-primary hover:text-primary-800">
+                    {professorData.contact.phoneNumber}
+                  </a>
                 </div>
               </div>
               
@@ -116,23 +111,6 @@ export default function Contact() {
                   <a href={`mailto:${professorData.contact.email}`} className="text-primary hover:text-primary-800">
                     {professorData.contact.email}
                   </a>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary-100 flex items-center justify-center">
-                  <Clock className="h-5 w-5 text-primary" />
-                </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-medium text-slate-900">Office Hours</h3>
-                  <p className="text-slate-700">
-                    {professorData.contact.officeHours.split('\n').map((line, index) => (
-                      <span key={index}>
-                        {line}
-                        <br />
-                      </span>
-                    ))}
-                  </p>
                 </div>
               </div>
             </div>

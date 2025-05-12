@@ -17,7 +17,7 @@ export default function CV() {
           <h2 className="text-3xl font-bold text-slate-900 mb-8 tracking-tight">Curriculum Vitae</h2>
           
           <div className="mb-8">
-            <h3 className="text-xl font-semibold text-slate-900 mb-4">Academic Positions</h3>
+            <h3 className="text-xl font-semibold text-slate-900 mb-4">Positions</h3>
             <div className="space-y-6">
               {professorData.cv.positions.map((position, index) => (
                 <motion.div 

@@ -28,11 +28,6 @@ export default function Home() {
               <Button size="lg" asChild>
                 <Link href="/contact">Get in Touch</Link>
               </Button>
-              <Button variant="outline" size="lg" asChild>
-                <Link href="/publications" className="flex items-center gap-2">
-                  View Publications <ArrowRight className="h-4 w-4" />
-                </Link>
-              </Button>
             </div>
           </motion.div>
 
