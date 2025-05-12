@@ -1,9 +1,9 @@
 import { Linkedin, Twitter, Github, FileText, Mail } from "lucide-react";
 
 export const professorData = {
-  name: "Dr. Jane Smith",
-  title: "Associate Professor of Computer Science",
-  shortBio: "Specializing in artificial intelligence, machine learning, and computational linguistics at Stanford University. Pushing the boundaries of what machines can learn and understand.",
+  name: "Jordan Moreno",
+  title: "Undergraduate Student — UC Irvine",
+  shortBio: "I’m currently majoring in Software Engineering and interested in physics and AI. I enjoy coding, building apps, and thinking about the universe.",
   
   about: {
     bio: [
