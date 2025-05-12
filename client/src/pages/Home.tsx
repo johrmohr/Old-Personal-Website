@@ -46,7 +46,7 @@ export default function Home() {
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary-100 rounded-full opacity-70" />
             <div className="relative rounded-lg overflow-hidden border-8 border-white shadow-xl aspect-square">
               <img 
-                src="/attached_assets/Jordan.JPG" 
+                src="/Jordan.JPG" 
                 alt={professorData.name} 
                 className="w-full h-full object-cover"
                 width="600"
