@@ -7,31 +7,41 @@ export const professorData = {
   
   about: {
     bio: [
-      "I am an Associate Professor in the Computer Science Department at Stanford University, where I lead the Machine Intelligence Research Lab. My work focuses on the intersection of artificial intelligence, computational linguistics, and cognitive science.",
-      "With over 15 years of experience in the field, I've contributed to fundamental advances in natural language processing and machine learning algorithms that help computers better understand human language."
+      "I am an Undergraduate student at the Donald Bren School of Information and Computer Science in UC Irvine, where I am majoring in Software Engineering. I am interested in artificial intelligence and its intersection with theoretical physics."
     ],
     researchInterests: [
       "Natural Language Processing & Understanding",
       "Machine Learning & Neural Networks",
-      "Cognitive Computing Models",
-      "Human-Computer Interaction",
+      "Quantum Gravity",
+      "The Hard Problem of Consciousness",
+      "Quantum Computing",
       "Ethics in AI and Algorithm Bias"
     ],
     education: [
       {
-        degree: "Ph.D. in Computer Science",
-        institution: "Massachusetts Institute of Technology",
-        years: "2008 - 2012"
+        degree: "A.S. in Computer Science",
+        institution: "Riverside City College",
+        years: "2020 - 2024"
       },
       {
-        degree: "M.S. in Artificial Intelligence",
-        institution: "Stanford University",
-        years: "2005 - 2007"
+        degree: "A.S. in Physics",
+        institution: "Riverside City College",
+        years: "2020 - 2024"
       },
       {
-        degree: "B.S. in Computer Science",
-        institution: "University of California, Berkeley",
-        years: "2001 - 2005"
+        degree: "A.S. in Mathematics",
+        institution: "Riverside City College",
+        years: "2020 - 2024"
+      },
+      {
+        degree: "A.S. in Social and Behavioral Studies",
+        institution: "Riverside City College",
+        years: "2020 - 2024"
+      },
+      {
+        degree: "B.S. in Software Engineering",
+        institution: "University of California, Irvine",
+        years: "2024 - 2026"
       }
     ]
   },
