@@ -52,13 +52,13 @@ export default function Research() {
                     
                     <div className="flex flex-col sm:flex-row gap-4 pt-4">
                       <Button asChild className="flex items-center gap-2">
-                        <a href="/Research Poster.pdf" target="_blank" rel="noopener noreferrer">
-                          <FileText className="w-4 h-4" /> Open Poster in New Tab
+                        <a href="/ResearchPoster.png" target="_blank" rel="noopener noreferrer">
+                          <FileText className="w-4 h-4" /> View Full-Size Poster
                         </a>
                       </Button>
                       <Button variant="outline" asChild className="flex items-center gap-2">
-                        <a href="#" onClick={(e) => { e.preventDefault(); window.print(); }}>
-                          <ExternalLink className="w-4 h-4" /> Print Poster
+                        <a href="/Research Poster.pdf" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4" /> View PDF Version
                         </a>
                       </Button>
                     </div>
@@ -66,13 +66,14 @@ export default function Research() {
                 </div>
                 
                 <div className="order-first md:order-last">
-                  <div className="aspect-auto rounded-lg overflow-hidden border-4 border-slate-200 h-[400px]">
-                    <iframe 
-                      src="/Research Poster.pdf" 
-                      title="Research Poster"
-                      className="w-full h-full"
-                      style={{ minHeight: "400px" }}
-                    />
+                  <div className="rounded-lg overflow-hidden border-4 border-slate-200">
+                    <a href="/ResearchPoster.png" target="_blank" rel="noopener noreferrer">
+                      <img 
+                        src="/ResearchPoster.png" 
+                        alt="Research Poster"
+                        className="w-full h-auto"
+                      />
+                    </a>
                   </div>
                   <div className="mt-4 bg-slate-100 rounded-lg p-4">
                     <h4 className="text-sm font-medium text-slate-900 mb-2">Research Period</h4>
