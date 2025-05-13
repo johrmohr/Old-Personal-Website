@@ -77,15 +77,17 @@ export const professorData = {
       tags: ["Sustainable Development", "Public Policy", "Anti-Corruption"],
       journal: "National Model United Nations - Germany",
       year: "2023",
-      type: "Journal Articles"
+      type: "Journal Articles",
+      pdfUrl: "/GA_Malta.pdf"
     },
     {
       title: "Haiti—Position Paper for the United Nations Educational, Scientific, and Cultural Organization: Artificial Intelligence and the Rule of Law; Strengthening Partnerships on Science, Technology, and Innovation for Sustainable Development",
-      authors: "Jordan Moreno, ",
+      authors: "Jordan Moreno, Yesenia Benavides",
       tags: ["AI Ethics", "AI Public Policy", "Sustainable Development"],
       journal: "National Model United Nations - New York",
-      year: "2022",
-      type: "Book Chapters"
+      year: "2023",
+      type: "Book Chapters",
+      pdfUrl: "/UNESCO_Haiti.pdf"
     }
   ],
   
@@ -158,14 +160,14 @@ export const professorData = {
   },
   
   contact: {
-    officeLocation: "",
-    email: "3moreno.jordan@gmail.com",
-    phoneNumber: "(951) 454-8767",
+    officeLocation: "Gates Computer Science Building\nStanford University\nStanford, CA 94305",
+    email: "jsmith@stanford.edu",
+    officeHours: "Tuesday & Thursday\n2:00 PM - 4:00 PM (PST)\nOr by appointment",
     socialLinks: [
-      { name: "LinkedIn", url: "https://www.linkedin.com/in/jordan-moreno-", icon: "linkedin" },
-      { name: "GitHub", url: "https://github.com/johrmohr", icon: "github" },
-      { name: "Resume", url: "/Jordan Moreno — RESUME.pdf", icon: "fileText" },
-      { name: "Email", url: "mailto:3moreno.jordan@gmail.com", icon: "mail" }
+      { name: "LinkedIn", url: "#", icon: "linkedin" },
+      { name: "GitHub", url: "#", icon: "github" },
+      { name: "ResearchGate", url: "#", icon: "fileText" },
+      { name: "Email", url: "#", icon: "mail" }
     ]
   }
 };

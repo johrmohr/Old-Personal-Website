@@ -13,7 +13,7 @@ export default function Publications() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl font-bold text-slate-900 mb-8 tracking-tight">Papers</h2>
-          
+
           <div className="space-y-6">
             {professorData.publications.map((publication, index) => (
               <motion.div 
@@ -41,11 +41,18 @@ export default function Publications() {
                     <div className="text-sm text-slate-500 mb-4">
                       <span className="font-medium">{publication.journal}</span> • {publication.year}
                     </div>
-                    <div className="flex space-x-4">
-                      <a href="#" className="text-primary hover:text-primary-800 text-sm font-medium flex items-center">
-                        <FileText className="h-4 w-4 mr-1" /> View PDF
-                      </a>
-                    </div>
+                    {publication.pdfUrl && (
+                      <div className="flex space-x-4">
+                        <a 
+                          href={publication.pdfUrl} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-primary hover:text-primary-800 text-sm font-medium flex items-center"
+                        >
+                          <FileText className="h-4 w-4 mr-1" /> View PDF
+                        </a>
+                      </div>
+                    )}
                   </div>
                   <div className="mt-4 md:mt-0 md:ml-6 flex-shrink-0">
                     <div className="bg-slate-100 rounded-md p-2 w-24 h-24 flex items-center justify-center">

@@ -22,7 +22,7 @@ export default function Research() {
               <div className="bg-gradient-to-r from-primary to-primary-600 h-48 md:h-64">
                 <div className="container h-full flex items-end">
                   <div className="p-6 text-white">
-                    <h3 className="text-2xl md:text-3xl font-bold">Analysis of Neural Network Performance in Image Recognition</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold">The Influence of Fiber Alignment on Cell Migration Patterns and Morphology</h3>
                   </div>
                 </div>
               </div>
