@@ -160,14 +160,12 @@ export const professorData = {
   },
   
   contact: {
-    officeLocation: "Gates Computer Science Building\nStanford University\nStanford, CA 94305",
-    email: "jsmith@stanford.edu",
+    email: "3moreno.jordan@gmail.com",
+    phoneNumber: "+1 (951) 454-8767",
     officeHours: "Tuesday & Thursday\n2:00 PM - 4:00 PM (PST)\nOr by appointment",
     socialLinks: [
-      { name: "LinkedIn", url: "#", icon: "linkedin" },
-      { name: "GitHub", url: "#", icon: "github" },
-      { name: "ResearchGate", url: "#", icon: "fileText" },
-      { name: "Email", url: "#", icon: "mail" }
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/jordan-moreno-", icon: "linkedin" },
+      { name: "GitHub", url: "https://github.com/johrmohr", icon: "github" }
     ]
   }
 };

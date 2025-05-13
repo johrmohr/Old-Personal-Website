@@ -18,9 +18,7 @@ const quickLinks = [
 
 const socialLinks = [
   { icon: "linkedin", href: "#", label: "LinkedIn" },
-  { icon: "github", href: "#", label: "GitHub" },
-  { icon: "fileText", href: "#", label: "ResearchGate" },
-  { icon: "mail", href: "#", label: "Email" },
+  { icon: "github", href: "#", label: "GitHub" }
 ];
 
 export default function Footer() {
