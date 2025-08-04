@@ -3,11 +3,11 @@ import { Linkedin, Twitter, Github, FileText, Mail } from "lucide-react";
 export const professorData = {
   name: "Jordan Moreno",
   title: "Undergraduate Student — UC Irvine",
-  shortBio: "I’m currently majoring in Software Engineering and interested in physics and AI. I enjoy coding, building apps, and thinking about the universe.",
+  shortBio: "I’m currently majoring in Physics and interested in Software Engineering and AI. I enjoy coding, building apps, and thinking about the universe.",
   
   about: {
     bio: [
-      "I am an Undergraduate student at the Donald Bren School of Information and Computer Science in UC Irvine, where I am majoring in Software Engineering. I am interested in artificial intelligence and its intersection with theoretical physics."
+      "I am an Undergraduate student at UC Irvine, where I am majoring in Physics. I am interested in artificial intelligence and its intersection with theoretical physics."
     ],
     researchInterests: [
       "Natural Language Processing & Understanding",
