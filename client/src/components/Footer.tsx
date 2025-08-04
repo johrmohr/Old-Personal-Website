@@ -33,7 +33,7 @@ export default function Footer() {
             <p className="text-slate-300 space-y-1">
               <span className="block">Undergraduate Student</span>
               <span className="block font-medium">
-                Donald Bren School of ICS
+                UCI School of Physical Sciences
               </span>
               <span className="block">University of California, Irvine</span>
             </p>

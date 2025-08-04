@@ -39,7 +39,7 @@ export const professorData = {
         years: "2020 - 2024"
       },
       {
-        degree: "B.S. in Software Engineering",
+        degree: "B.S. in Physics",
         institution: "University of California, Irvine",
         years: "2024 - 2026"
       }
